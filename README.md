@@ -31,17 +31,3 @@ Open Termux and run
 
 1. Now go into youtube (or twitter, or reddit, [full list](https://ytdl-org.github.io/youtube-dl/supportedsites.html)), watch a video, tap the share button, then tap termux and wait for the download.
 2. Go into `~/storage/shared/Download/` with your file explorer and watch your downloaded video.
-
-## TODO
-
-- [x] If there is no playlist it saves in NA directory with NA prefix in file name
-- [x] `--no-abort-on-error`
-- [x] `--skip-playlist-after-errors N`
-- [ ] deal with errors like
-  - `ERROR: [youtube] 8NonPPdQ7Yw: Private video. Sign in if you've been granted access to this video`
-  - `ERROR: [youtube] Video downloading in /data/data/com.termux instead of /storage/download/`
-  = `WARNING: [youtube] Video downloads in Webm format which has some playback issue`
-  
-- [ ] deal with warnings like
-  - `WARNING: No subtitle format found matching "srt" for language en, using vtt`
-  - `WARNING: Unable to download video thumbnail: HTTP Error 404: Not Found`
