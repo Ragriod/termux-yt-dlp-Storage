@@ -4,3 +4,4 @@ clear
 #Removed unwanted checking for best video formats as they are already implemented by yt-dlp
 cd /storage/self/primary/Download
 yt-dlp -S "ext" "$1"
+read -p "Enter to continue"
