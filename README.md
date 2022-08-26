@@ -11,7 +11,7 @@ Bash script to setup yt-dlp in Termux
 $pkg remove game-repo
 $pkg remove science-repo
 $pkg update
-
+```
 2. Open termux
 
 ```bash
