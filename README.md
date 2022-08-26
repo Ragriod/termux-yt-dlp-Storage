@@ -18,7 +18,7 @@ $pkg update
 ```bash
 $ pkg update
 $ pkg install git
-$ git clone <address of this repository>
+$ git clone https://github.com/Ragriod/termux-yt-dlp-Storage.git
 $ cd termux-yt-dlp
 $ bash install.sh
 ```
